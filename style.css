@@ -1,0 +1,73 @@
+body#ReUse{background-image: url(Capture1.png);
+background-size : cover}
+body#page1 {
+    background-color: #E8C39E; 
+}
+body#page3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacement entre le titre, le tableau et le pied de page */
+    min-height: 100vh; /* Assure que la hauteur du corps est 100% de la hauteur de la fenêtre */
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style pour le titre */
+.title {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 3em;
+    text-decoration: underline;
+    margin: 20px 0; /* Espacement autour du titre */
+}
+
+/* Style pour le conteneur du tableau */
+.table-container {
+    display: flex;
+    justify-content: center; /* Centre le tableau horizontalement */
+    align-items: center; /* Centre le tableau verticalement dans la section */
+    height: 60vh; /* Ajuste la hauteur du conteneur pour centrer verticalement le tableau */
+}
+
+table {
+    width: 100%;
+	max-width: 1500px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+th, td {
+    padding: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style pour le pied de page */
+.footer {
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    padding: 20px 0; /* Espacement autour des boutons */
+    background-color: #fff; /* Arrière-plan pour le pied de page */
+}
+
+}
+.txt6 { list-style-type: upper-roman; }

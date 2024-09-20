@@ -1,0 +1,17 @@
+<!Index.html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Détails</title>
+</head>
+<body>
+<p align="center"><font face="Comic Sans MS" size="110"><U>Détails entreprise </U></p><br />
+<p align="left"><font face="Comic Sans MS" Size="6"> <ol><li>Nous sommes parmi les 750 entreprises en france à réparer des panneaux solaires.</li><br />
+<p align="left"><font face="Comic Sans MS" Size="6"> <li>Pour réparer un panneaux solaire nous regardons dans un premier temps l'etat du panneau solaire, 
+
+		ensuite nous regardons si le panneau solaire est reparable et nous estimons le temps que cela va nous prendre à le réparer.
+
+		Et pour finir nous faisons un devis du prix de la réparation.</li></ol>
+</body>
+</html>
+ 
